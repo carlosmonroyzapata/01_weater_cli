@@ -3,9 +3,22 @@ venv/
 .venv/
 env/
 
-# Variables de entorno (¡Súper importante no subirlas!)
+# Variables de entorno
 .env
+backend/.env
 
 # Caché de Python
-__pycache__/
+**/__pycache__/
 *.pyc
+
+# Node.js / React
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vscode/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
